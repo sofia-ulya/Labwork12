@@ -95,7 +95,7 @@ public class RainfallData {
 		readRainfallData();
 		
 		
-		// Calculate average utlization
+		// Calculate average rainfall rate
 		String averageRainfallRate = String.format("%.1f", totalRainfallRate / noOfDays);
 		System.out.print("\nAverage rainfall at Simpang Ampat for " + noOfDays + " days: " + averageRainfallRate + "%");
 		
