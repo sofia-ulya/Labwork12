@@ -61,7 +61,7 @@ public class RainfallData {
 				rainfallRate = dataStream.readInt();
 				System.out.println( rainfallDate + "\t" + rainfallRate);
 				
-				// Calculate total utilization
+				// Calculate total rainfall rate
 				totalRainfallRate += rainfallRate;
 				noOfDays++;
 			}
@@ -86,7 +86,7 @@ public class RainfallData {
 		
 		// Declare variable
 		String[] rainfallDate = {"3/6/2023","4/6/2023","5/6/2023","6/6/2023","7/6/2023","8/6/2023"};
-		int[] rainfallRate = {4,1,0,6,19,1};
+		int rainfallRate[] = {4,1,0,6,19,1};
 		
 		// Call method to generate rainfall data
 		generateRainfallData(rainfallDate, rainfallRate);
